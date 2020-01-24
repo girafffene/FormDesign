@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="grid">
+      <form>
+        <fieldset class="firstBunch">
+          <label>FIRST NAME</label>
+          <input type="text" name="firstName" placeholder="Irene" />
+
+          <label>LAST NAME</label>
+          <input type="text" name="lastName" placeholder="Perez" />
+
+          <label>EMAIL</label>
+          <input type="email" name="email" placeholder="example@gmail.com" />
+
+          <label>COUNTRY</label>
+          <label id="country" name="Country">
+            <select id="country" name="country">
+              <option value="" disabled selected hidden>
+                Choose a Country:
+              </option>
+              <option value="Afganistan">Afghanistan</option>
+              <option value="Australia">Australia</option>
+              <option value="Canada">Canada</option>
+              <option value="China">China</option>
+              <option value="Czech Republic">Czech Republic</option>
+              <option value="Djibouti">Djibouti</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Iraq">Iraq</option>
+              <option value="Ireland">Ireland</option>
+              <option value="United States">United States</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <label>BIOGRAPHY</label>
+          <textarea
+            rows="5"
+            cols="35.5"
+            name="Biography"
+            minlength="5"
+            maxlength="250"
+          >
+          </textarea>
+        </fieldset>
+
+        <fieldset class="secondBunch">
+          <label for="phone">PHONE NUMBER</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="555-123-4567"
+          />
+
+          <label>AFFILIATIONS</label>
+          <textarea
+            rows="5"
+            cols="35.5"
+            name="AFFILIATIONS"
+            minlength="5"
+            maxlength="250"
+          >
+          </textarea>
+
+          <label id="Occupation" name="Occupation">OCCUPATION</label>
+          <select id="Occupation" name="Occupation">
+            <optgroup
+              label="Business, Executive, Management, and Financial Occupations:"
+            >
+              <option value="" disabled selected hidden>
+                Choose an Occupation:
+              </option>
+              <option value="1">
+                Chief Executive
+              </option>
+              <option value="2">
+                General and Operations Manager
+              </option>
+              <option value="3">
+                Operations Specialties Manager (e.g., IT or HR Manager)
+              </option>
+              <option value="4">
+                Construction Manager
+              </option>
+              <option value="5">
+                Engineering Manager
+              </option>
+              <option value="6">
+                Accountant, Auditor
+              </option>
+              <option value="7">
+                Business Operations or Financial Specialist
+              </option>
+              <option value="8">
+                Business Owner
+              </option>
+            </optgroup>
+            <optgroup label="Other Occupations:">
+              <option value="9">Military</option>
+              <option value="10">Homemaker</option>
+              <option value="11">Other Occupation</option>
+              <option value="12">Don't Know</option>
+              <option value="13">Not Applicable</option>
+            </optgroup>
+          </select>
+
+          <label>CAT'S NAME</label>
+          <input type="text" name="Cat\'s Name" placeholder="Midnight" />
+
+          <label>FAVOURITE GADGET</label>
+          <input type="text" name="Favorite Gadget" placeholder="Ear Cap" />
+        </fieldset>
+
+        <fieldset class="thirdBunch">
+          <label id="talent" name="talent">TYPE OF TALENT</label>
+          <select id="talent" name="talent">
+            <option value="placeholder">Choose a Talent:</option>
+            <option value="Dancing">Dancing</option>
+            <option value="Singing">Singing</option>
+            <option value="Multilingual">Multilingual</option>
+            <option value="Art">Art</option>
+            <option value="Baking">Baking</option>
+            <option value="Juggling">Juggling</option>
+            <option value="Cooking">Cooking</option>
+            <option value="Play an Instrument">Play an Instrument</option>
+            <option value="Writing">Writing</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label>FAVOURITE DRINK</label>
+          <input type="text" name="Favourite Drink" placeholder="Wine" />
+
+          <label>SPECIAL POWER</label>
+          <input type="text" name="Special Power" placeholder="Laser Vision" />
+
+          <label>WEAPON OF CHOICE</label>
+          <input type="text" name="Weapon of Choice" placeholder="Nunchucks" />
+
+          <label>COMMENTS</label>
+          <textarea
+            rows="5"
+            cols="35.5"
+            name="Biography"
+            minlength="5"
+            maxlength="250"
+          >
+          </textarea>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

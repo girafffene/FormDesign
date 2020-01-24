@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: white;
+  background-color: lightskyblue;
+}
+
+.grid {
+  flex-direction: row;
+  margin: auto;
+  padding-top: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1500px;
+  margin: auto;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+}
+
+select {
+  width: 300px;
+  height: 20px;
+}
+input,
+select {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: medium;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: auto;
+  align-content: center;
+}
+
+textarea,
+input,
+select {
+  margin: 5px 0px 25px 0px;
+  transition: border-color 1.5s;
+}
+:focus {
+  border-color: midnightblue;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
